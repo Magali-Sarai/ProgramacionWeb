@@ -3,7 +3,7 @@ function convertir(){
     var grados=document.getElementById("grados").value;
     //Validación
     if(grados==""){
-        alert("Pon algo carck");
+        alert("Pon algo crack");
         return;
         }
     //Convierte 
