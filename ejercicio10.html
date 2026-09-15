@@ -1,0 +1,33 @@
+<!-- Ejerccio 10-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+    <script src="js/ejercicio10.js"></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Convertidor</h1>
+        <p class="subtitulo">Grados Celsius a Fahrenheit</p>
+        
+        <form class="formulario">
+            <!--Donde el usuario ingresa los grados-->
+            <div class="grupo-formulario">
+                <label for="grados">Grados que deseas convertir</label>
+                <input type="number" id="grados" placeholder="Ej: 25" required>
+            </div>
+            <!--Botón q convierte-->
+            <br>
+                <button type="button" class="boton-convertir" onclick="convertir()">Convertir</button>
+            <br>
+            <div>
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" placeholder="Resultado" readonly>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

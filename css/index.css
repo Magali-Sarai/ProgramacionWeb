@@ -1,0 +1,62 @@
+/* Configuraciones generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c1d9f1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contenedor-menu {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contenedor-menu h1 {
+    color: #066790;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #6C757D;
+    margin-bottom: 30px;
+}
+
+/* Ordena los botones en 2 columnas */
+.botones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* el 2 pq quiero dos columnas */
+    gap: 15px; /* espacio entre botones */
+}
+
+.boton-menu {
+    display: inline-block;
+    background-color: #066790; 
+    color: white; 
+    text-decoration: none; 
+    padding: 12px 20px;
+    border-radius: 8px; 
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease; /* hace que las animaciones sean suaves */
+}
+
+/* efecto cuando pasas el mouse por encima del botón */
+.boton-menu:hover {
+    background-color: #123b9e; /* un tono más oscuro */
+    outline: none; /*Elimina el outline predeterminado*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto */
+}

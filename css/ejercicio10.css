@@ -1,0 +1,85 @@
+
+:root{
+    --color-primario:#066790;
+    --color-secundario:#07b3d5;
+    --color-fondo: #c1d9f1;
+    --color-texto:#3742b7;
+    --color-borde:#2055db;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Incluye padding y border en el ancho/alto*/
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6; /*Mejora la legebilidad en textos largos*/
+    padding: 40px 20px; /*Espacio externo*/
+}
+
+.contenedor-formulario{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px; /*Bordes redondeados*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+h1{
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+}
+
+.subtitulo{
+    color: #6C757D;
+    margin-bottom: 30px;
+}
+
+.grupo-formulario{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500; /*Semi-negrita*/
+    font-size: 14px;
+}
+
+.boton-convertir{
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-convertir:hover{
+    background-color: #0d065a; /*Color oscuro al pasar el mouse*/
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.3s; /*Animación suave*/
+}
+
+input:focus, textarea:focus{
+    border-color: var(--color-secundario);
+    outline: none; /*Elimina el outline predeterminado*/
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2); /*Sombra interior (efecto glow)*/
+}
