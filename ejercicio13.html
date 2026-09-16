@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 13</title>
+    <script src="js/ejercicio13.js"></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Verificador</h1>
+        <p class="subtitulo">Verifica tu edad para votar</p>
+        
+        <form class="formulario">
+            <!--Donde el usuario ingresa su edad-->
+            <div class="grupo-formulario">
+                <label for="edad">Edad que tienes </label>
+                <input type="number" id="edad" placeholder="Ej: 25 años" required>
+            </div>
+            <!--Botón q convierte-->
+            <br>
+                <button type="button" class="boton-verificar" onclick="verificar()">Verificar</button>
+            <br>
+            <div>
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" placeholder="Resultado" readonly>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

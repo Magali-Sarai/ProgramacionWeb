@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <!-- Si tienes un CSS para este ejercicio, lo enlazas aquí -->
+    <!-- <link rel="stylesheet" href="css/ejercicio14.css"> -->
+    <script src="js/ejercicio14.js"></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Cálculo de Arreglos</h1>
+        <p class="subtitulo">Mayor, Menor y Promedio</p>
+        
+        <form class="formulario">
+            <!-- Donde el usuario ingresa los números -->
+            <div class="grupo-formulario">
+                <label for="numeros">Ingresa números separados por comas:</label>
+                <input type="text" id="numeros" placeholder="Ej: 10, 20, 30" required>
+            </div>
+            
+            <br>
+            <!-- Botón que llama a la función calcular() -->
+            <button type="button" class="boton-convertir" onclick="calcular()">Calcular</button>
+            <br><br>
+
+            <!-- Cajas de texto de solo lectura para los resultados -->
+            <div>
+                <label for="mayor">Número mayor:</label>
+                <input type="text" id="mayor" placeholder="Resultado" readonly>
+            </div>
+            <br>
+            <div>
+                <label for="menor">Número menor:</label>
+                <input type="text" id="menor" placeholder="Resultado" readonly>
+            </div>
+            <br>
+            <div>
+                <label for="promedio">Promedio:</label>
+                <input type="text" id="promedio" placeholder="Resultado" readonly>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

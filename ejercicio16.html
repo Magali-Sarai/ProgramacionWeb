@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <script src="js/ejercicio16.js"></script>
+
+    <!-- Librería SweetAlert2 para mostrar los mensajes de error -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- -->
+    
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora de Números</h1>
+        <p class="subtitulo">Operaciones Básicas con Funciones Flecha</p>
+        
+        <form class="formulario">
+            <!-- Campos de entrada para los números -->
+            <div class="grupo-formulario">
+                <label for="numero1">Número 1</label>
+                <input type="text" id="numero1" placeholder="Ej: 15" required> <!--[cite: 4] -->
+            </div>
+            <br>
+            <div class="grupo-formulario">
+                <label for="numero2">Número 2</label>
+                <input type="text" id="numero2" placeholder="Ej: 5" required> <!--[cite: 4] -->
+            </div>
+            
+            <br>
+            <!-- Botones para cada operación -->
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('suma')">Sumar</button> <!--[cite: 4] -->
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('resta')">Restar</button> <!--[cite: 4] -->
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('multiplicacion')">Multiplicar</button> <!--[cite: 4] -->
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('division')">Dividir</button> <!--[cite: 4] -->
+            <br><br>
+
+            <!-- Caja de texto para mostrar el resultado -->
+            <div>
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" placeholder="Resultado" readonly> <!--[cite: 4] -->
+            </div>
+        </form>
+    </div>
+</body>
+</html>

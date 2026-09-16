@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ejercicio 17 - Gestión de Tareas</title>
+    <script src="js/ejercicio17.js"></script>
+    <!-- Librería SweetAlert2 para las alertas de confirmación -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Gestión de Tareas</h1>
+        <p class="subtitulo">Local Storage, JSON y Closures</p>
+        
+        <form class="formulario">
+            <!-- Ingreso de la nueva tarea -->
+            <div class="grupo-formulario">
+                <label for="nuevaTarea">Nueva Tarea</label>
+                <input type="text" id="nuevaTarea" placeholder="Ej: Tarea de Wong Deidad" required>
+            </div>
+            
+            <br>
+            <!-- Botón para agregar tarea -->
+            <button type="button" class="boton-convertir" onclick="interfazAgregarTarea()">Agregar Tarea</button>
+            <br><br>
+
+            <!-- Contenedor donde se mostrarán las tareas guardadas -->
+            <div>
+                <label>Mis Tareas Pendientes</label>
+                <div id="listaTareas">
+                    <!-- Las tareas se inyectarán aquí desde el JS -->
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
