@@ -29,7 +29,7 @@ function calcular() {
         numeros.push(Number(valorLimpio));
     }
 
-    //s todo está correcto se realizan los calculos
+    //Si todo está correcto se realizan los calculos
     document.getElementById("mayor").value = Math.max(...numeros);
     document.getElementById("menor").value = Math.min(...numeros);
     document.getElementById("promedio").value = numeros.reduce((a, b) => a + b, 0) / numeros.length;
