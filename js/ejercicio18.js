@@ -1,4 +1,4 @@
-const input = document.getElementById('nuevoElemento');
+const input = document.getElementById('nuevoElemento'); 
 const botonAgregar = document.getElementById('agregarBtn');
 const lista = document.getElementById('lista');
 function agregarElemento() {

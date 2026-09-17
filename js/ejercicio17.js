@@ -23,10 +23,10 @@ const manejarTareas = (function() {
     }
 
     // eliminarTarea(): Elimina una tarea específica
-    function eliminarTarea(index) {
-        let tareas = obtenerTareas();
+    function eliminarTarea(index) {//index= le da la ultima posición del arreglo
+        let tareas = obtenerTareas();//aqui da el arreglo js
         tareas.splice(index, 1); // Remueve 1 elemento en la posición indicada
-        localStorage.setItem("tareas", JSON.stringify(tareas)); 
+        localStorage.setItem("tareas", JSON.stringify(tareas)); //javascript a json
     }
 
     //funciones q tienen q ser públicas (accesibles desde fuera del closure)
