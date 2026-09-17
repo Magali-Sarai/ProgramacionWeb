@@ -8,7 +8,7 @@
 /* Fondo y centrado de la página (como en el Ejercicio 10 e index) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #7c242a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ input[type="number"] {
 
 input[type="text"]:focus,
 input[type="number"]:focus {
-    border-color: #007bff;
+    border-color: #7c242a;
     outline: none;
 }
 

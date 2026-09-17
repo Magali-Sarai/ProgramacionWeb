@@ -8,7 +8,7 @@
 /* Fondo y centrado de la página (como en el Ejercicio 10 e index) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #8bb2e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ input[readonly] {
 
 /* Botones de acción */
 .boton-convertir {
-    background-color: #007bff;
+    background-color: #6dacf1;
     color: #ffffff;
     border: none;
     padding: 12px 15px;

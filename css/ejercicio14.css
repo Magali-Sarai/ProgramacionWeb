@@ -6,9 +6,9 @@
 }
 
 /* Fondo y centrado de la página (como en el Ejercicio 10 e index) */
-body {
+body { 
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #d6d280;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 
 /* Contenedor principal de los formularios */
 .contenedor-formulario {
-    background-color: #ffffff;
+    background-color: #f9f8f8;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,8 +87,8 @@ input[readonly] {
 
 /* Botones de acción */
 .boton-convertir {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #f7b034;
+    color: #4f4b4b;
     border: none;
     padding: 12px 15px;
     font-size: 16px;
