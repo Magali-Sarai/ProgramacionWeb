@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ejercicio 16</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
     <script src="js/ejercicio16.js"></script>
 
     <!-- Librería SweetAlert2 para mostrar los mensajes de error -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
     
 </head>
 <body>
@@ -19,26 +20,26 @@
             <!-- Campos de entrada para los números -->
             <div class="grupo-formulario">
                 <label for="numero1">Número 1</label>
-                <input type="text" id="numero1" placeholder="Ej: 15" required> <!--[cite: 4] -->
+                <input type="text" id="numero1" placeholder="Ej: 15" required> 
             </div>
             <br>
             <div class="grupo-formulario">
                 <label for="numero2">Número 2</label>
-                <input type="text" id="numero2" placeholder="Ej: 5" required> <!--[cite: 4] -->
+                <input type="text" id="numero2" placeholder="Ej: 5" required> 
             </div>
             
             <br>
             <!-- Botones para cada operación -->
-            <button type="button" class="boton-convertir" onclick="calcularOperacion('suma')">Sumar</button> <!--[cite: 4] -->
-            <button type="button" class="boton-convertir" onclick="calcularOperacion('resta')">Restar</button> <!--[cite: 4] -->
-            <button type="button" class="boton-convertir" onclick="calcularOperacion('multiplicacion')">Multiplicar</button> <!--[cite: 4] -->
-            <button type="button" class="boton-convertir" onclick="calcularOperacion('division')">Dividir</button> <!--[cite: 4] -->
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('suma')">Sumar</button>
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('resta')">Restar</button> 
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('multiplicacion')">Multiplicar</button>
+            <button type="button" class="boton-convertir" onclick="calcularOperacion('division')">Dividir</button> 
             <br><br>
 
             <!-- Caja de texto para mostrar el resultado -->
             <div>
                 <label for="resultado">Resultado</label>
-                <input type="text" id="resultado" placeholder="Resultado" readonly> <!--[cite: 4] -->
+                <input type="text" id="resultado" placeholder="Resultado" readonly> 
             </div>
         </form>
     </div>

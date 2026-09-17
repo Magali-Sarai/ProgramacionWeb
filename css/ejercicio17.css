@@ -100,3 +100,33 @@ input[readonly] {
     margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
+
+.boton-convertir:hover {
+    background-color: #0056b3;
+}
+
+/*listas*/
+#listaTareas div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+#listaTareas input[readonly] {
+    border: none;
+    background-color: transparent;
+    width: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+#listaTareas .boton-convertir {
+    width: auto;
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+}

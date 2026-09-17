@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ejercicio 15</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
     <script src="js/ejercicio15.js"></script>
 </head>
 <body>
@@ -15,34 +16,34 @@
             <!-- Entradas de datos -->
             <div class="grupo-formulario">
                 <label for="nombre">Nombre del estudiante</label>
-                <input type="text" id="nombre" placeholder="Ej: Juan" required> <!-- -->
+                <input type="text" id="nombre" placeholder="Ej: Juan" required>
             </div>
             <br>
             <div class="grupo-formulario">
                 <label for="calificacion">Calificación</label>
-                <input type="number" id="calificacion" placeholder="Ej: 85" required> <!--[cite: 3] -->
+                <input type="number" id="calificacion" placeholder="Ej: 85" required> 
             </div>
             
             <br>
             <!-- Botones que ejecutan las funciones -->
-            <button type="button" class="boton-convertir" onclick="agregarEstudiante()">Agregar estudiante</button> <!--[cite: 3] -->
-            <button type="button" class="boton-convertir" onclick="calcular()">Calcular</button> <!--[cite: 3] -->
+            <button type="button" class="boton-convertir" onclick="agregarEstudiante()">Agregar estudiante</button> 
+            <button type="button" class="boton-convertir" onclick="calcular()">Calcular</button> 
             <br><br>
 
             <!-- Cajas de texto de solo lectura para los resultados -->
             <div>
                 <label for="promedio">Calificación promedio</label>
-                <input type="text" id="promedio" placeholder="Resultado" readonly> <!--[cite: 3] -->
+                <input type="text" id="promedio" placeholder="Resultado" readonly> 
             </div>
             <br>
             <div>
                 <label for="masAlta">Estudiante con la calificación más alta</label>
-                <input type="text" id="masAlta" placeholder="Resultado" readonly> <!--[cite: 3] -->
+                <input type="text" id="masAlta" placeholder="Resultado" readonly> 
             </div>
             <br>
             <div>
                 <label for="masBaja">Estudiante con la calificación más baja</label>
-                <input type="text" id="masBaja" placeholder="Resultado" readonly> <!--[cite: 3] -->
+                <input type="text" id="masBaja" placeholder="Resultado" readonly> 
             </div>
         </form>
     </div>
