@@ -43,11 +43,11 @@ function calcular() {
         return;
     }
 
-    // 1. Cálculo del promedio usando reduce()
+    //Cálculo del promedio usando reduce()
     var suma = estudiantes.reduce((total, estudiante) => total + estudiante.calificacion, 0); 
     var promedio = suma / estudiantes.length; 
 
-    // 2. Encontrar la calificación más alta y más baja usando Math.max, Math.min y map()[cite: 3]
+    //ncontrar la calificación más alta y más baja usando Math.max, Math.min y map()
     var calificacionMaxima = Math.max(...estudiantes.map(e => e.calificacion)); 
     var calificacionMinima = Math.min(...estudiantes.map(e => e.calificacion)); 
 
@@ -55,7 +55,7 @@ function calcular() {
     var estudianteAlto = estudiantes.find(e => e.calificacion === calificacionMaxima).nombre;
     var estudianteBajo = estudiantes.find(e => e.calificacion === calificacionMinima).nombre;
 
-    // 3. Mostrar los resultados en las cajas readonly
+    //Mostrar los resultados en las cajas readonly
     document.getElementById("promedio").value = promedio;
     document.getElementById("masAlta").value = estudianteAlto;
     document.getElementById("masBaja").value = estudianteBajo;
