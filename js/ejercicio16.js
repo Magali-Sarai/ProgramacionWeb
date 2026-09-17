@@ -1,4 +1,4 @@
-// Funciones flecha para las operaciones básicas
+// Funciones  para las operaciones básicas
 const sumar = (a, b) => a + b; 
 const restar = (a, b) => a - b;
 const multiplicar = (a, b) => a * b; 
@@ -36,7 +36,7 @@ function calcularOperacion(operacion) {
 
     var res;
 
-    //llamada a las funciones flecha según el botón presionado
+    //llamada a las funciones según el botón presionado
     if (operacion === 'suma') {
         res = sumar(a, b);
     } else if (operacion === 'resta') {
